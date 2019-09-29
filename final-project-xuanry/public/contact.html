@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+  Name: Susan Yang
+  Date: Aug. 10th, 2019
+  Section: CSE 154 AB
+  This is the contact.html file for my final prject. This project allows the client to see the
+  products in the store, filter them by price, add them to cart, and they can also send messages
+  using the contact page. This page allows the user to input their information and a message.
+  Then the input will be saved on the server side.
+  -->
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Susan's not so convenient store</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="contact.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">Susan's not so convenient store</a></h1>
+      <div>
+        <a href="signin.html"><img src="img/user.png" alt="User icon"/></a>
+      </div>
+      <hr/>
+      <h2>Contact</h2>
+    </header>
+    <main>
+      <section id="contact">
+        <h3>Contact Us</h3>
+        <form id="send-contact">
+          First Name:
+          <input type="text" name="first-name" required/>
+          <br/>
+          Last Name:
+          <input type="text" name="last-name" required/>
+          <br/>
+          Email address:
+          <input type="email" name="email" required/>
+          <br/>
+          <textarea rows="10" cols="70" required>Enter text here.</textarea>
+          <br/>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+      <cite>Icons from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></cite>
+    </footer>
+  </body>
+</html>
