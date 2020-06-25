@@ -6,4 +6,4 @@
 
 - cp4-node-api uses Node.js and express to take user input for the memo form, including name, date, and message, and stores info on server database
 
-- final-project is a simple web store that incorporates sql database with product information to populate the product page; it also has the basics of a web store, including  product pages, faq page, a contact page, and a sign up page. Also uses Node.js and express.
+- final-project is a simple web store that incorporates sql database to populate the many pages of the site, including product info, frequently asked questions and answers, as well as customer messages; it also has the basics of a web store, such as the product pages, faq page, a contact page, and a sign up page. Also uses Node.js and express.
