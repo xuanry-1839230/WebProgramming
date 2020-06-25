@@ -1,0 +1,194 @@
+/*
+    Name: Susan Yang
+    Date: July 6th, 2018
+    Section: CSE 154 AB
+    This is the styles.css page for my homework 1 assignment. It is used across the page
+    of debugdog.html, to give the page a clean, consisitent look.
+ */
+
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700|Space+Mono');
+.side-by-side {
+  display: flex;
+}
+
+a{
+  color: midnightblue;
+}
+a:visited{
+  color: #866637;
+}
+
+body{
+  width: 80%;
+  background-image: url("img/dog-footprint.png");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: #FEE8C8;
+  font-family: "Space Mono", monospace;
+  margin: auto;
+}
+
+header, h1, h2, h3{
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-align: center;
+}
+
+header{
+  height: 350px;
+  background-image: url("img/header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+header, header h1{
+  border-radius: 5px 5px 0px 0px;
+}
+
+header h1{
+  font-size: 3.1em;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+
+#profile-pic img, #facts img{
+  width: 300px;
+  height: 100%;
+}
+
+#profile-pic img{
+  border: 10px solid white;
+  border-radius: 200px;
+}
+
+#profile-pic {
+  padding-top: 3%;
+  padding-left: 75%;
+}
+
+body>footer{
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+body>footer>p{
+  font-size: 1vw;
+}
+
+body>footer img{
+  height: 70px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+h1, #endorsements, body>footer{
+  background-color: #34495E;
+  color: #EBEDEF;
+}
+
+main, blockquote{
+  background-color: #EBEDEF;
+  color: #34495E;
+}
+
+main{
+  margin-top: 8%;
+  margin-bottom: 4%;
+  border-radius: 5px;
+}
+
+main>section{
+  padding: 1% 2% 1% 2%;
+}
+
+main p{
+  margin: 10px;
+}
+
+#background p{
+  margin: 10px;
+}
+
+#facts{
+  border-top: 5px solid #34495E;
+  border-bottom: 5px solid #34495E;
+  padding: 0px;
+}
+
+#facts img{
+  margin: 10px 5px 10px 0px;
+}
+
+#endorsements img{
+  width: 30vw;
+  height: 100%;
+  max-width: 400px;
+}
+
+blockquote{
+  text-align: center;
+  border-left: 10px solid #AEB6BF;
+  margin: 0px 30px 15px 30px;
+  padding: 10px;
+}
+
+blockquote footer{
+  font-style: italic;
+}
+
+hr {
+  width: 40%
+}
+
+.side-by-side{
+  flex-direction: row;
+}
+
+/********** Begin CSS for the Creative Section Here **********/
+#achievements, #long{
+  background-color: #EBEDEF;
+  color: #34495E;
+}
+
+figure{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+figure img{
+  height: 300px;
+}
+
+ul{
+  margin-bottom: 20px;
+}
+
+li{
+  list-style: circle;
+  margin: 10px;
+}
+
+em{
+  font-style: normal;
+  font-weight: 900;
+  padding: 2px;
+  font-size: 120%;
+}
+
+#creative p em{
+  background-color: white;
+}
+
+#achievements{
+  border-top: 5px solid #34495E;
+  border-bottom: 5px solid #34495E;
+}
+
+/**********        End Creative Section CSS         **********/

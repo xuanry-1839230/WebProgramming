@@ -1,0 +1,64 @@
+/*
+    Name: Susan Yang
+    Date: July 27th, 2018
+    Section: CSE 154 AB
+    This is the styles.css page for my creative project 4 assignment. It is used in the index.html
+    page to create a clean, easy to view page.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Playfair+Display&display=swap');
+
+body {
+  background-color: #f1d8aa;
+  font-family: "Playfair Display";
+}
+
+main {
+  background-color: #fbddc7;
+  height: 100%;
+  min-height: 450px;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+main, div, p {
+  border-radius: 10px;
+  width: 85%;
+  margin: auto;
+}
+
+div {
+  border: 5px #9fa57a solid;
+  padding: 10px 20px 10px 20px;
+  background-color: #f3e9c3;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+
+p {
+  font-family: "Bad Script";
+  background-color: #f9f2dc;
+  padding: 12px;
+  margin-top: 0px;
+}
+
+form {
+  font-size: 18px;
+  text-align: center;
+}
+
+#get-names {
+  margin: 20px;
+  margin-left: 45%;
+}
+
+input, button, textarea {
+  padding: 3px;
+  margin: 10px;
+}
+
+form p {
+  color: brown;
+  font-weight: 900;
+}

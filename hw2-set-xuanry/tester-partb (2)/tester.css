@@ -1,0 +1,62 @@
+/*
+  NAME: Jack Venberg
+  DATE: Jul 9 2019
+  SECTION/TA: CSE 154 TA
+
+  tester.js style
+ */
+
+.no-show {
+  display: none;
+}
+
+.passed {
+  color: white;
+  background-color: green;
+}
+
+.error {
+  color: white;
+  background-color: red;
+}
+
+summary {
+  padding: .5rem;
+  border-radius: .2rem;
+  margin: .5rem 0;
+  cursor: pointer;
+}
+
+summary > span {
+  float: right;
+}
+
+details details {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-left: 2px solid black;
+  padding: 5px;
+}
+
+details details summary {
+  margin: 0;
+}
+
+#tester-container section, #tester-container p, details details {
+  margin-left: 15px;
+}
+
+#tester-container {
+  text-align: left;
+}
+
+@media only screen and (min-width: 800px) {
+  summary {
+    width: 60%;
+  }
+}
+
+#tester-container h3 span {
+  color: red;
+  text-transform: uppercase;
+}

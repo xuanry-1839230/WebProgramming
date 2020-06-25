@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+  Name: Susan Yang
+  Date: Aug. 10th, 2019
+  Section: CSE 154 AB
+  This is the html file for my creative project 4. It is a page that allows the user to input
+  information to journal and the page will saves the latest input, it can also take in user's input
+  containing their names and save all the input to be displayed later.
+-->
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Post Here</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Post here</h1>
+      <div>
+        <span>Date</span>
+        <h3>Title</h3>
+        <p>Text</p>
+      </div>
+      <form id="journal">
+        Date:
+        <input type="date" name="date" required>
+        Title:
+        <input type="text" name="title" required>
+        <br/>
+        <textarea rows="4" cols="50" required>Enter text here.</textarea>
+        <br/>
+        <button type="submit">Post</button>
+      </form>
+      <form id="author">
+        Your name here:
+        <input type="text" name="name" required>
+        <button type="submit">Submit name</button>
+      </form>
+      <button id="get-names">See who's been here</button>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+/*
+    * Name: Susan Yang
+    * Date: June 28th, 2019
+    * Section: CSE 154 AB
+
+    * This is the CSS file for my portfolio page, its rules applies to both the portfolio view and the
+    * save-images view in order to achieve a consistent look.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:700|Raleway');
+
+body {
+  background-color: #ffdfc3a8;
+  font-family: "Raleway", monospace;
+  margin-top: 40px;
+  margin-right: auto;
+  width: 80%;
+  margin-left: 210px;
+  padding: 7px;
+}
+
+header {
+  font-size: 18px;
+  padding: 8px;
+}
+
+heading, h1, h2, h3 {
+  font-family: "Crimson Text", sans-serif;
+}
+
+nav {
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #8e7ab1;
+  padding-top: 60px;
+  font-size: 16px;
+  width: 185px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+}
+
+li.nav {
+  background-color: #ffcfc3;
+  padding: 5px;
+}
+
+p.citaion {
+  font-size: 14px;
+}
+
+.welcome, footer {
+  font-size: 18px;
+}
+
+.imgBox, .collage img, #saved img{
+  width: 100%;
+  max-width: 400px;
+}
+
+.collage img, #saved img {
+  margin: 5px;
+  border: 7px solid #af9c85;
+  border-radius: 7px;
+}
+
+.imgBox{
+  position: relative;
+}
+
+#saved img{
+  height: 100%;
+}
+
+.vertical {
+  width: 250px !important;
+  margin: auto !important;
+}
+
+#error {
+  padding-top: 100px;
+}
+
+.collage, #saved {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-right: 250px;
+}
+
+.save-btn, aside button {
+  background-color: #ffcfc3;
+  color: darkred;
+  font-size: 12px;
+  padding: 4px 8px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.save-btn {
+  position: absolute;
+  top: 7%;
+  left: 89%;
+}
+
+.vertical .save-btn{
+  top: 5%;
+  left: 83%;
+}
+
+.imgBox .save-btn:hover, aside button:hover {
+  background-color: violet;
+}
+
+aside img, aside button {
+  position: absolute;
+  top: 50px;
+}
+
+aside button {
+  right: 50px;
+}
+
+aside img {
+  height: 20px;
+  right: 110px;
+}
+
+.hidden {
+  display: none;
+}

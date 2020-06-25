@@ -1,0 +1,12 @@
+CSE154 CP1 Showcase Options
+
+We encourage students to opt-in to each quarter's Creative Project Showcase to
+showcase creativity, design, fun, utility, exploration, etc. and you do not need
+to go above and beyond to be featured (as long as the work is appropriate and you
+are citing external sources in your page, such as public images).
+
+If you would like to opt-in to the website's CP1 Showcase (check the box in the GitGrade submission process), please also let us know which of the following you would like included:
+- about.html: YES
+- other .html files: YES
+- wireframes: YES
+- 404.html (late day challenge): YES

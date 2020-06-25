@@ -1,0 +1,95 @@
+/*
+  NAME:
+  DATE:
+  SECTION/TA:
+
+  INSERT 2-3 SENTENCE DESCRIPTION OF FILE HERE
+ */
+
+body, button, select, input {
+  text-align: center;
+  font-size: 12pt;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+article {
+  background-color: #6F77ED;
+  border-radius: 0.35em;
+  border: 5pt solid black;
+  color: white;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 16pt;
+}
+
+button, select {
+  padding: 8px;
+  background-color: white;
+  border: 2pt solid black;
+}
+
+#start-btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+/* part A implementation */
+#details-bar, .card, #board {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#details-bar {
+  background-color: black;
+  border-radius: 0.5em 0.5em 0 0;
+  color: white;
+  font-size: 14pt;
+}
+
+.card {
+  border: black solid 0.35em;
+  border-radius: 1em;
+  height: 95px;
+  width: 220px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.selected {
+  box-shadow: 6px 6px #636363;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card img {
+  height: 85%;
+}
+
+#board {
+  border-style: solid;
+  border-top-style: none;
+  border-color: black;
+  border-width: 0pt 5pt 5pt 5pt;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.hidden, .hide-imgs img {
+  display: none;
+}
+
+#board p {
+  font-size: 16pt;
+  font-weight: bold;
+}
