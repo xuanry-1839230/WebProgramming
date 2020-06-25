@@ -1,0 +1,48 @@
+/*
+    Name: Susan Yang
+    Date: July 27th, 2018
+    Section: CSE 154 AB
+    This is the styles.css page for my creative project 3 assignment. It is used in the index.html
+    page to create a clean, easy to view page.
+ */
+
+input[type='text'] value {
+  color: gray;
+}
+
+body {
+  background-image: url("paw-pattern.png");
+  background-blend-mode: lighten;
+  font-family: monospace;
+}
+
+main {
+  background-color: wheat;
+  width: 85%;
+  height: 100%;
+  min-height: 450px;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+img {
+  max-height: 230px;
+  width: auto;
+  padding: 15px;
+}
+
+div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+form, footer {
+  font-size: 18px;
+  text-align: center;
+}
+
+form p {
+  color: brown;
+  font-weight: 900;
+}

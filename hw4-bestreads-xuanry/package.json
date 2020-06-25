@@ -1,0 +1,19 @@
+{
+  "name": "hw4-bestreads-xuanry",
+  "version": "1.0.0",
+  "description": "*Special thanks to Allison Obourn for the original version of this assignment.*",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.cs.washington.edu:cse154-19su-students/hw4-bestreads-xuanry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.4",
+    "node-modules": "^1.0.1"
+  }
+}
